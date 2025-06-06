@@ -5,7 +5,7 @@ for (let i=2; i<= num; i++) // utilizamos la estructura de control for para pode
 {
 secuenciaDeFibonacci[i]=secuenciaDeFibonacci[i-1]+secuenciaDeFibonacci[i-2] //cada numero de la serie se calcula sumando los dos anteriores
 }
-return secuenciaDeFibonacci; // luego de calcular los valores devolvemos el valor
+return secuenciaDeFibonacci; // luego de calcular los valores devolvemos la secuencia calculada.
 }
 
 console.log(fibonacci(7)); // mostramos por consola el resultado de ejecutar la funcion hasta llegar a la posicion 7 del array.
